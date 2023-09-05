@@ -1,0 +1,39 @@
+.main-page-container {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.main-page-container h3 {
+    color: var(--dark-100, #24282C);
+
+    font-family: Manrope;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.main-page-container h1 {
+    color: var(--dark-100, #24282C);
+
+font-family: Manrope;
+font-size: 3.6rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.ronaldo-text {
+    color: var(--primary-100, #A5823C);
+}
+
+.main-page-container p {
+color: var(--grey-100, #878787);
+font-family: Manrope;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.6rem; /* 162.5% */
+}
