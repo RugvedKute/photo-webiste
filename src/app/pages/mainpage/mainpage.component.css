@@ -1,0 +1,164 @@
+
+
+.main-container {
+    margin: 8.5rem 8rem;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.first-half {
+    display: flex;
+    justify-content: space-between;
+}
+.main-container h3 {
+    color: var(--dark-100, #24282C);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+
+.main-container h1 {
+color: var(--dark-100, #24282C);
+font-family: Manrope;
+font-size: 8rem;
+font-style: normal;
+
+}
+
+.ronaldo-text {
+    color: var(--primary-100, #A5823C);
+}
+
+.main-container p {
+color: var(--grey-100, #878787);
+font-size: 2.2rem;
+font-weight: 400;
+line-height: 3.7rem; 
+}
+
+.text {
+   
+    width: 60%;
+}
+
+.info {
+
+    width: 30%;
+}
+
+.clients {
+    border-bottom: 1px solid var(--grey-40, rgba(135, 135, 135, 0.40));
+    padding-bottom: 3rem ;
+
+}
+
+.contact {
+    display: flex;
+    padding-top: 3rem;
+}
+
+.contact .images {
+   
+    width: 33%;
+  
+}
+
+.contact .images .image {
+    width: 45% ;
+    margin-right: -2rem;
+}
+
+
+
+.ellipse-clients .images .image {
+    margin-right: -2rem;
+    width: 23%;
+}
+.ellipse-clients {
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+
+
+}
+
+
+
+
+
+.clients .see-more {
+    font-size: 2rem;
+    width: 30%;
+}
+
+
+.ellipse-clients .images {
+    width: 60%;
+}
+
+.ellipse-btn {
+    border: none;
+    color: var(--primary-100, #A5823C);
+    font-size: 2rem;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .2s;
+
+}
+
+.ellipse-btn span {
+    margin-left: 8px;
+}
+
+.contact-text h2 {
+    font-size: 3.2rem;
+}
+
+.btn button {
+
+    color: white;
+    border: 1px solid;
+    padding: 2.4rem 3.2rem;
+    background-color: #A5823C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 2rem;
+    font-weight: 600;
+   
+    
+}
+
+.btn {
+    margin-top: 2.4rem;
+    width: 72%;
+}
+
+.btn span {
+    margin-left: 8px;
+    color: orangered;
+}
+
+.second-half {
+    margin-top: 7rem;
+}
+
+.second-half img {
+    
+        width: 100%;
+        height: auto;
+
+}
+
+/* .contact {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+}
+.info ..contact hr{
+    width: 0.5px;
+    background: var(--grey-40, rgba(135, 135, 135, 0.40));
+    
+} */
+

@@ -1,0 +1,174 @@
+ /* .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.4rem 2rem;
+    background-color: #FFFFFF;
+
+    align-items: center;
+  
+
+}
+
+
+
+.grapz {
+    color: var(--dark-100, #24282C);
+
+}
+
+.navbar-text p {
+color: var(--primary-100, #A5823C);
+text-align: center;
+font-family: Manrope;
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+
+.hamburger img {
+    height: 24px;
+    width: 24x;
+
+}
+
+.hamburger-container {
+   
+    background: var(--white-100, #F4F4F4);
+    padding: 1.2rem;
+}
+ */
+
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 6.6rem 8rem;
+    border: 1px solid;
+    font-family: 'Manrope';
+ }
+
+ .logo-elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 67%;
+ }
+
+ .logo-inner {
+    width: 25%;
+    /* font-size: 16px; */
+  
+
+    
+}
+
+.logo-inner label {
+    font-size: 3.2rem;
+    font-weight: 800;
+
+}
+
+.elements-navbar {
+    width: 66%;
+}
+
+.elements-navbar  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.elements-navbar a {
+    text-transform: uppercase;
+    color: #878787;
+    font-size: 2.4rem;
+
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rectangle {
+    display: flex;
+    margin-right: 4.8rem;
+    margin-left: 4.8rem;
+    align-items: center;
+    color: var(--grey-40, rgba(135, 135, 135, 0.40)) ;
+    font-size: 3.2rem;
+    border-radius: 100px;
+    
+}
+
+
+#touch {
+    display: none;
+}
+
+
+
+.button-navbar button {
+    color: white;
+    border: 1px solid;
+    padding: 2.4rem 3.2rem;
+    background-color: #A5823C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+   
+    font-size: 2rem;
+    font-weight: 600;
+   
+    
+}
+
+.elements-navbar a:hover {
+    /* text-transform: uppercase;
+    color: #878787;
+    font-size: 2.4rem; */
+    background-color: #dddddd;
+}
+
+#grapz {
+    color: var(--primary-100, #A5823C);
+}
+
+.hamburger-container {
+   
+    background: var(--white-100, #F4F4F4);
+    padding: 1.2rem;
+    display: none;
+}
+ 
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .elements-navbar {
+        display: none;
+    }
+    
+    .button-navbar {
+        display: none;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .hamburger-container {
+   
+        background: var(--white-100, #F4F4F4);
+        padding: 1.2rem;
+        display: block;
+    }
+}
+
+

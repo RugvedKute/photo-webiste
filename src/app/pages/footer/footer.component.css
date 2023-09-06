@@ -1,0 +1,42 @@
+
+
+.footer-container {
+    background-color: var(--dark-100, #24282C);
+    
+   
+    border: 1px solid white;
+}
+
+.footer-inner-container {
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    border: 1px solid white;
+
+}
+
+.footer-div-1 {
+    border: 1px solid white;
+}
+
+.footer1-text {
+    width: 35%;
+    border: 1px solid white;
+}
+
+.footer1-text h2 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.footer1-text p {
+color: var(--background-light-60, rgba(255, 255, 255, 0.60));
+font-size: 2.2rem;
+font-weight: 500;
+line-height: 3.5rem; /* 154.167% */
+}
+
+footer1-input input{
+    padding: 2.4rem 19.6rem 2.4rem 2.4rem;
+}
