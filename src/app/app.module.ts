@@ -9,6 +9,11 @@ import { PagesComponent } from './pages/pages.component';
 import { NavbarComponent } from './pages/navbar/navbar.component';
 import { MainpageComponent } from './pages/mainpage/mainpage.component';
 import { FooterComponent } from './pages/footer/footer.component';
+import { AboutMeComponent } from './pages/about-me/about-me.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { ArticlesComponent } from './pages/articles/articles.component';
+
 
 
 @NgModule({
@@ -18,6 +23,10 @@ import { FooterComponent } from './pages/footer/footer.component';
     MainpageComponent,
     PagesComponent,
     FooterComponent,
+    AboutMeComponent,
+    ServicesComponent,
+    PortfolioComponent,
+    ArticlesComponent,
  
   ],
   imports: [

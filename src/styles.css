@@ -27,16 +27,18 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1350px) {
 
     html{
-     font-size: 52%;
+     font-size: 50%;
+     display: flex;
+     flex-direction: row;
     }
  }
  @media screen and (max-width: 1024px) {
 
     html{
-     font-size: 55%;
+     font-size: 45%;
     }
  }
  

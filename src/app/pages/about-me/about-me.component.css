@@ -1,0 +1,213 @@
+/* .about-me-main {
+    margin: 8.5rem 8rem;
+  
+    padding-top: 4rem;
+}
+
+.inner-bout-me {
+    margin-top: 7.5rem;
+   
+
+}
+
+.bout-me-left-container {
+    width: 43%;
+}
+
+
+
+p {
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: var(--grey-100, #878787);
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 7rem;
+    color: var(--dark-100, #24282C);
+}
+
+.left-container1 {
+    display: flex;
+    align-items: center;
+}
+
+.left-container1 h3 {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.left-container1 img {
+    margin-right: 1.2rem;
+}
+
+.left-container3 {
+
+
+
+}
+
+.left-container3 .btn {
+    display: flex;
+    align-items: center;
+    margin-top: 4.8rem;
+
+    padding: 2.4rem;
+    background-color: #A5823C;
+    font-style: normal;
+    font-size: 2.4rem;
+    font-weight: 600;
+    
+}
+
+.left-container3 .btn svg {
+    margin-left: 2.8rem;
+}
+.left-container3 .btn p{
+    color: #FFFFFF;
+}
+
+.right-arrow {
+    margin-left: 2.8rem;
+
+}
+
+.last-inner-div {
+    display: flex;
+    align-items: center;
+} */
+
+
+/* styles.css */
+
+.about-me-main {
+    margin: 8.5rem 8rem;
+  
+    padding-top: 4rem;
+}
+
+.inner-bout-me {
+ 
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.bout-me-left-container {
+    margin-top: 7.5rem;
+
+    width: 43%;
+    margin-bottom: 15.2rem;
+  
+}
+
+.bout-me-right-container {
+    margin-bottom: 7.5rem;
+    width: 42%;
+    object-fit: cover;
+}
+
+.image {
+    border-radius: 50%;
+    background-color:  #A5823C;
+}
+
+p {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #878787; /* Replace with your desired color */
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 7rem;
+    color: #24282C; /* Replace with your desired color */
+}
+
+.left-container1 {
+    display: flex;
+    align-items: center;
+}
+
+.left-container1 h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.left-container1 img {
+    margin-right: 1.2rem;
+}
+
+
+
+.left-container3 .btn {
+    display: flex;
+    align-items: center;
+    margin-top: 4.8rem;
+ 
+    padding: 2.4rem;
+    background-color: #A5823C; /* Replace with your desired background color */
+    font-size: 2.4rem;
+    font-weight: 600;
+  
+}
+
+.left-container3 .btn p{
+    color: #FFFFFF;
+}
+
+.left-container3 .btn svg {
+    margin-left: 2.8rem;
+}
+
+.last-inner-div {
+    display: flex;
+    align-items: center;
+}
+
+.left-container3 .btn-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 4.8rem;
+    margin-left: 4.8rem;
+    padding: 2.4rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+
+
+.left-container3 .btn-2 p {
+    color: #A5823C;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+@media screen and (max-width: 375px){ 
+    .inner-bout-me {
+        display: block;
+    }
+
+    .about-me-main {
+        width: 100%;
+    }
+
+    .bout-me-left-container {
+        width: 80%;
+    }
+    .bout-me-right-container {
+        width: 80%;
+    }
+}

@@ -2,27 +2,32 @@
 
 .footer-container {
     background-color: var(--dark-100, #24282C);
-    
-   
-    border: 1px solid white;
+
 }
 
 .footer-inner-container {
-    display: flex;
-    margin-top: 8rem;
+
     margin-left: 8rem;
     margin-right: 8rem;
-    border: 1px solid white;
+  
 
 }
 
-.footer-div-1 {
-    border: 1px solid white;
+.footer1-div {
+    padding-top: 8rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
+
+/* .footer-div-1 {
+   
+} */
 
 .footer1-text {
+
     width: 35%;
-    border: 1px solid white;
+   
 }
 
 .footer1-text h2 {
@@ -37,6 +42,122 @@ font-weight: 500;
 line-height: 3.5rem; /* 154.167% */
 }
 
-footer1-input input{
+.footer1-input input{
     padding: 2.4rem 19.6rem 2.4rem 2.4rem;
+    width: 100%;
+    height: 8.1rem;
+   
 }
+
+.footer1-input {
+    width: 45%;
+    margin-left: 9rem;
+    
+}
+
+.footer1-img {
+    width: 12%;
+    margin-left: 2.4rem;
+    height: 8.1rem;
+
+
+}
+
+.footer1-img button {
+    width: 100%;
+    background-color: #A5823C;
+    flex-shrink: 0;
+    padding: 2.4rem 5rem 1.9rem 4rem;
+
+}
+
+.footer1-img .image {
+    width: 6.4rem;
+    height: 3.2rem;
+}
+
+.footer-div-2 {
+    margin-top: 2.8rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid var(--grey-40, rgba(135, 135, 135, 0.40));
+    
+}
+
+.footer-div-2 h1 {
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+
+.footer2-logo {
+  width: 13%;
+}
+
+#photo {
+    color: var(--primary-100, #A5823C);
+}
+
+.anchor p {
+    color:#878787 ;
+    font-size: 2.4rem;
+    font-weight: 400;
+   
+}
+
+.footer-div-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.anchor {
+    width: 38%;
+    display: flex;
+    gap: 2rem;
+    
+}
+.social-container {
+    width: 20%;
+    background-color: var(--dark-2100, #2B3238);
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    width: 21%;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.social-container svg {
+    
+    
+    width: 3.2rem;
+    height: 3.2rem;
+    flex-shrink: 0;  
+    
+}
+
+.footer-div-3 {
+    display: flex;
+    width: 90% ;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+.footer-end p {
+    color:#FFFFFF;
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.footer-end {
+    display: flex;
+}
+
